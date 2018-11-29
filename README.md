@@ -1,3 +1,3 @@
 # Tobino
 
-Агрегатор образовательных центров для детей
+Aggregator of educational centers for children
