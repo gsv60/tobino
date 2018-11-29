@@ -1,3 +1,3 @@
-# tobino
+# Tobino
 
-Tobino website
+Агрегатор образовательных центров для детей
