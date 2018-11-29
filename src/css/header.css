@@ -1,0 +1,109 @@
+.wrapper{
+    width: 1232px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #FCFCFC;
+    padding-top: 12px;
+    display: flex;
+    padding-bottom: 22px;
+    
+}
+.header__wrapper{
+    display: flex;
+}
+.hero__wrapper{
+    background-image: url(/images/Image2.png);
+    background-repeat: no-repeat;
+    height: 640px;
+    background-position: right 0px bottom 4px;  
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.nav{
+    margin-top: 41px;
+    font: var(--footer-header-title-font);
+    margin-right: 30px;
+    text-transform: uppercase;
+    display: flex;
+    
+}
+.nav__link{
+    color: var(--black);
+    font: var(--footer-header-title-font);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 26px;
+}
+.nav a{
+    text-decoration: none;
+}
+.catalog--but{
+    height: 40px;
+    width: 192px;
+    background-color: #ED3B85;
+    font: var(--footer-header-title-font);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-left: 8px;
+    text-decoration: none;   
+}
+.catalog--but__white{
+    height: 40px;
+    width: 192px;
+    background-color: #FCFCFC;
+    font: var(--footer-header-title-font);
+    color: #ED3B85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ED3B85;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-top: 28px;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.logo{
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: -92px;
+    height: 55px;
+    width: 230px;
+}
+.h1__main{
+    color: #393435;
+    font: var(--h1-main);
+}
+.h5__main{
+    font: var(--h5-main);
+    color: #5D5D5D;
+    margin-top: 24px;
+}
+
+@media (max-width: 1360px){
+    .logo{
+        margin-left: 0;
+    }
+}
+@media(max-width: 1250px){
+    .hero__wrapper{
+        background-position: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-position: 50% 150px;
+        height: 560px;
+    }
+}
+
+
+

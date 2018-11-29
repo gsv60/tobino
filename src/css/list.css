@@ -1,0 +1,66 @@
+.list{
+    margin-top: 48px;
+}
+.list__cards{
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E7EA;
+}
+.list__cards__last{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #E5E7EA;
+}
+.list__cards__title{
+    font: var(--cards-title);
+    height: 32px;
+    
+}
+.list__cards__filters{
+    height: 16px;
+    display: flex;
+}
+.search__main__list{
+    padding-top: 2px;
+}
+.cards__filters{
+    text-decoration: none;
+    color: #03BADA;
+    font: var(--cards-filter);
+}
+.cards__filters:not(:first-child){
+    text-decoration: none;
+    color: #03BADA;
+    font: var(--cards-filter);
+    margin-left: 24px;
+    padding: 0 10px 0 10px;
+}
+.list__cards__subway{
+    font: var(--cards-filter);
+    color: #333333;
+    height: 16px;
+    margin-top: 16px;
+}
+.list__phone{
+    font: var(--cards-filter);
+    color: #333333;
+    height: 16px;
+    margin-top: 8px;
+    margin-bottom: 31px;
+}
+.list__icon{
+    margin-top: 2px;
+    height: 12px;
+    width: 12px;
+}
+.list__img{
+    height: 72px;
+    padding-right: 16px;
+    margin-top: 6px;
+
+}
+.list__cards__text{
+    display: flex;
+    flex-direction: column;
+}

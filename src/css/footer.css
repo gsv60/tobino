@@ -1,0 +1,130 @@
+.footer{
+    position: absolute;
+    height: 328px;
+    width: 100%;
+    background-color: #2F2F31;
+}
+
+.footer__logo{
+    width: 208px;
+}
+
+.footer__nav{
+    padding-top: 18px;  
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 242px;
+}
+.footer__nav__middle{
+    padding-left: 70px;
+    padding-top: 18px;  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 242px;
+}
+
+.footer__nav__right{
+    margin-left: auto;
+    padding-top: 18px;  
+    padding-left: 136px;
+    display: flex;
+    width: 296px;
+    flex-direction: column;
+    align-items: flex-end;
+
+    
+}
+
+.footer__link__title{
+    font: var(--footer-header-title-font);
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+.footer__link{
+    font: var(--footer-link);
+    text-decoration: none;
+    color: #BABABA;
+    margin-bottom: 16px;
+}
+.footer__nav__sub{
+    font: var(--footer-link);
+    text-decoration: none;
+    color: #BABABA;
+    margin-bottom: 22px;
+    text-align: right;
+    width: 165px;
+}
+
+.footer__title{
+    color: #FFFFFF;
+    padding-top: 46px;
+    display: flex;
+
+}
+.footer__link__media__title{
+    padding-top: 8px;
+    display: flex;
+}
+.footer__link__media{
+    height: 40px;
+    width: 40px;
+    margin-right: 16px;
+}
+.footer__input{
+    padding-left: 3px;
+    width: 256px;
+    height: 40px;
+    background-color: #FFFFFF;
+    border: none;
+}
+.footer__down{
+    color: #FFFFFF;
+    padding-left: var(--page-pad);
+    padding-right: var(--page-pad);
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__policity{
+    font: var(--footer-link);
+    color: #B4B4B4;
+}
+.footer__policity__middle{
+    font: var(--footer-link);
+    color: #B4B4B4;
+    margin-left: -106px;
+}
+.footer__policity__right{
+    font: var(--footer-link);
+    color: #B4B4B4;
+}
+.footer__link__white{
+    font: var(--footer-link);
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.footer__subscribe{
+    width: 296px;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+}
+.button__subscribe{
+    width: 40px;
+    height: 40px;
+    background-color: #f6931d;
+    background-image: url(/images/send.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 20px 17px;
+    border: none;
+    
+}

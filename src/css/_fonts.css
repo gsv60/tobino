@@ -1,0 +1,32 @@
+:root{
+    --footer-header-title-font: 600 11px/15px "Verdana Pro", Sans;
+    --h1-main: 700 38px/46px "Source Sans Pro", Sans;
+    --h5-main: 600 14px/24px "Verdana Pro", Sans;
+    --h3-main: 700 22px/24px "Source Sans Pro", Sans;
+    --cards-title: 700 28px/44px "Source Sans Pro", Sans;
+    --news-title: 600 18px/24px "Source Sans Pro", Sans;
+    --cards-des: 400 13px/22px "Verdana Pro", Sans;
+    --cards-time: 300 11px/20px "Verdana Pro", Sans;
+    --articles-cards: 400 13px/20px "Verdana Pro", Sans;
+    --about-title: 600 28px/44px "Source Sans Pro", Sans;
+    --about-des: 400 13px/26px "Verdana Pro", Sans;
+    --footer-link: 400 13px/15px "Verdana Pro", Sans;
+    --search-button: 600 12px/15px "Source Sans Pro", Sans;
+    --cards-title: 600 20px/24px "Source Sans Pro", Sans;
+    --cards-filter: 400 13px/20px "Verdana Pro", Sans;
+    --content-title: 700 16px/24px "Source Sans Pro", Sans;
+    --content-text: 400 13px/24px "Verdana Pro", Sans;
+}
+/* source-sans-pro-700 - cyrillic_latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/source-sans-pro-v11-cyrillic_latin-700.eot'); /* IE9 Compat Modes */
+    src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'),
+         url('../fonts/source-sans-pro-v11-cyrillic_latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/source-sans-pro-v11-cyrillic_latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/source-sans-pro-v11-cyrillic_latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/source-sans-pro-v11-cyrillic_latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/source-sans-pro-v11-cyrillic_latin-700.svg#SourceSansPro') format('svg'); /* Legacy iOS */
+  }
